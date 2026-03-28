@@ -3,7 +3,7 @@
 
 Keyvok is a professional-grade, local-first password manager built for users who demand absolute control over their digital security. By combining a native **C++ core** with a modern **Microsoft WebView2** interface, Keyvok provides a seamless user experience without ever "phoning home" or requiring an internet connection.
 
-[**Visit Official Website**](https://keyvok.com) | [**Interactive UI Preview**](https://github.com/Radiant-Software/Keyvok/blob/main/ui.min.html)
+[**Visit Official Website**](https://keyvok.com)
 
 ---
 
@@ -42,3 +42,22 @@ As a security utility, we provide SHA-256 checksums for every official release. 
 For automated deployment and updates via the Windows Package Manager:
 ```powershell
 winget install RadiantSoftware.Keyvok
+
+---
+
+### 🛡️ License & Transparency
+Keyvok is a proprietary product of **Radiant Software LLC**. 
+* **License:** [Proprietary EULA](LICENSE.txt)
+* **Binary Integrity:** This repository serves as the official distribution hub for checksums. We recommend always verifying your download against the hashes listed above.
+
+---
+
+### 📬 Support & Bug Reports
+This repository is the primary **Public Issue Tracker** for Keyvok. 
+* **Found a bug?** Please [Open a New Issue](https://github.com/Radiant-Software/Keyvok/issues).
+* **Feature Request?** We value community feedback for our roadmap.
+* **Email Support:** `support [at] keyvok.com`
+
+**Radiant Software LLC** *Privacy by design. Security by code.*
+
+
