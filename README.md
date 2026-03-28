@@ -13,42 +13,37 @@ Keyvok is designed with a "Zero-Trust Cloud" philosophy. Your data never leaves 
 * **Encryption:** Leverages **Windows Data Protection API (DPAPI)**, ensuring your database is cryptographically tied to your specific Windows User Profile.
 * **Storage:** Powered by a hardened, local **SQLite** engine.
 * **Entropy:** Supports **144-bit entropy** for master keys, exceeding standard industry recommendations for long-term data persistence.
-* **Privacy:** No accounts, no subscriptions, and no telemetry. Your vault is truly private.
+* **Privacy:** Local-only access. No user accounts, no subscriptions, and no telemetry.
 
 ---
 
 ### 📥 Verified Downloads (v1.0.0)
-As a security utility, we provide SHA-256 checksums for every official release. Please verify your installer before execution.
+We provide SHA-256 checksums for every official release. Please verify your installer before execution.
 
-| Edition | Official Link | SHA-256 Checksum |
-| :--- | :--- | :--- |
-| **Keyvok Lite** | [Download EXE](https://keyvok.com/download/Keyvok-Lite-Setup-x64.exe) | `PASTE_LITE_HASH_HERE` |
-| **Keyvok** | [Website Purchase](https://keyvok.com) | `PASTE_HASH_HERE` |
+| Edition | SHA-256 Checksum |
+| :--- | :--- |
+| **Keyvok Lite** | `PASTE_LITE_HASH_HERE` |
+| **Keyvok** | `PASTE_HASH_HERE` |
 
 > **Verification Command (PowerShell):**
 > `Get-FileHash .\Keyvok-Lite-Setup-x64.exe -Algorithm SHA256`
 
+* **Integrity:** Binaries are digitally signed by Radiant Software LLC.
+
 ---
 
 ### 🖥️ Technical Specifications
-* **Binary Size:** ~1.6MB (C++ Optimized)
+* **Installer Size:** ~2.5MB
 * **OS:** Windows 10 (1809+) or Windows 11 (x64).
 * **Runtime:** [Microsoft Edge WebView2](https://go.microsoft.com/fwlink/p/?LinkId=2124703) (Official Microsoft Installer).
     * *Note: Our installer automatically detects and assists with the WebView2 setup if it is missing from your system.*
 
 ---
 
-### 📦 Installation via WinGet
-For automated deployment and updates via the Windows Package Manager:
-```powershell
-winget install RadiantSoftware.Keyvok
-
----
-
-### 🛡️ License & Transparency
+### 🛡️ License
 Keyvok is a proprietary product of **Radiant Software LLC**. 
 * **License:** [Proprietary EULA](LICENSE.txt)
-* **Binary Integrity:** This repository serves as the official distribution hub for checksums. We recommend always verifying your download against the hashes listed above.
+* **Terms:** This software is licensed, not sold. Unauthorized redistribution is prohibited.
 
 ---
 
@@ -58,6 +53,4 @@ This repository is the primary **Public Issue Tracker** for Keyvok.
 * **Feature Request?** We value community feedback for our roadmap.
 * **Email Support:** `support [at] keyvok.com`
 
-**Radiant Software LLC** *Privacy by design. Security by code.*
-
-
+**Radiant Software LLC**
