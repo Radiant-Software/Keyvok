@@ -22,8 +22,8 @@ We provide SHA-256 checksums for every official release. Please verify your inst
 
 | Edition | SHA-256 Checksum |
 | :--- | :--- |
-| **Keyvok Lite** | `PASTE_LITE_HASH_HERE` |
-| **Keyvok** | `PASTE_HASH_HERE` |
+| **Keyvok Lite** | `33fbaa4374b52e5940c3d4927bc8702a370883b27408bf2287461c2919ad765d` |
+| **Keyvok** | `572ca105965b8a067f1159f850ddecc70746d0cf993fa1bbe9b993969e14848a` |
 
 > **Verification Command (PowerShell):**
 > `Get-FileHash .\Keyvok-Lite-Setup-x64.exe -Algorithm SHA256`
@@ -33,7 +33,7 @@ We provide SHA-256 checksums for every official release. Please verify your inst
 ---
 
 ### 🖥️ Technical Specifications
-* **Installer Size:** ~2.5MB
+* **Installer Size:** ~2.5 MB
 * **OS:** Windows 10 (1809+) or Windows 11 (x64).
 * **Runtime:** [Microsoft Edge WebView2](https://go.microsoft.com/fwlink/p/?LinkId=2124703) (Official Microsoft Installer).
     * *Note: Our installer automatically detects and assists with the WebView2 setup if it is missing from your system.*
