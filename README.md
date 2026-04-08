@@ -22,8 +22,8 @@ We provide SHA-256 checksums for every official release. Please verify your inst
 
 | Edition | SHA-256 Checksum |
 | :--- | :--- |
-| **Keyvok Lite** | `33fbaa4374b52e5940c3d4927bc8702a370883b27408bf2287461c2919ad765d` |
-| **Keyvok** | `572ca105965b8a067f1159f850ddecc70746d0cf993fa1bbe9b993969e14848a` |
+| **Keyvok Lite** | `b2247ccd2b5cfba5c018e2a4e1814fdfeb20ca7294d914a9894fcdb52fff41c3` |
+| **Keyvok** | `4b53df8cf30b527615a71c675d213b75901e7cbf422e0146ff9431bcaced5638` |
 
 > **Verification Command (PowerShell):**
 > `Get-FileHash .\Keyvok-Lite-Setup-x64.exe -Algorithm SHA256`
